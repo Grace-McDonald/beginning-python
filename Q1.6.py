@@ -1,0 +1,6 @@
+number_1 = int(input("What is number 1? \n "))
+number_2 = int(input("What is number 2? \n"))
+number_3 = int(input("What is number 3? \n"))
+print(f"The three number were {number_1}, {number_2}, and {number_3}")
+print(f"The total of the numbers is {number_1 + number_2 + number_3}")
+print(f"The average of these number is {(number_1 + number_2 + number_3)/3}")
