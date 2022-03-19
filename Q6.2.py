@@ -7,5 +7,9 @@ barcode = input("Please enter a barcode: ")
 if len(barcode) != 13:
     print("That's not a valid Barcode")
 else:
-    country = barcode[0:2]
-    print(country)
+    country = codes[barcode[0:3]]
+    manufacturer = barcode[3:8]
+    check = barcode[-1]
+    print("Country:", country)
+    print("Manufacturer:", manufacturer)
+    print("Cheack number:", check)
